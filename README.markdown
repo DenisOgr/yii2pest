@@ -1,6 +1,5 @@
-RESTFull PHP clicent for Yii2(server)
+RESTFfull PHP clicent for Yii2(server)
 ====
-***Add trait which replaced HEAD query (old implement not working) and add OPTION query.***
 
 [The main repository](https://github.com/educoder/pest)
 
@@ -34,7 +33,7 @@ PestJSON if you're working with JSON.
 
     <?php
 
-    $pest = new Pest('http://example.com');
+    $pest = new Yii2Pest('http://example.com');
 
     $thing = $pest->get('/things');
 
@@ -84,7 +83,7 @@ try to parse the service's response into a [SimpleXML](http://php.net/manual/en/
 
 	<?php
 
-	$pest = new Pest('http://example.com');
+	$pest = new Yii2Pest('http://example.com');
 
 	$things = $pest->get('/things.xml');
 
