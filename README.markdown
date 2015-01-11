@@ -1,4 +1,4 @@
-RESTFfull PHP clicent for Yii2(server)
+RESTfull PHP clicent for Yii2(server)
 ====
 
 [The main repository](https://github.com/educoder/pest)
