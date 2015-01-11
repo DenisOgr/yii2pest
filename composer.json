@@ -1,5 +1,5 @@
 {
-    "name": "denisogr/pest",
+    "name": "denisogr/yii2pest",
     "description": "A proper REST client for PHP. Work with Yii2.",
     "homepage": "https://github.com/denisogr/pest",
     "license": "MIT",
