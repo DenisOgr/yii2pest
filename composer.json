@@ -1,0 +1,28 @@
+{
+    "name": "denisogr/pest",
+    "description": "A proper REST client for PHP. Work with Yii2.",
+    "homepage": "https://github.com/denisogr/pest",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Zukowski",
+            "email": "matt@zukowski.ca"
+        },
+        {
+            "name": "Donald Sipe",
+            "email": "donald.sipe@gmail.com"
+        },
+                {
+            "name": "Denis Porplenko",
+            "email": "porplenko.denis@gmail.com"
+        }
+
+    ],
+    "require": {
+        "lib-curl": "*",
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "classmap": [""]
+    }
+}
