@@ -17,7 +17,7 @@ To install Pest, use the following composer `require` statement:
 ```
 {
     "require": {
-        "denisogr/pest": "1.0.0"
+        "denisogr/yii2pest": "dev-master"
     }
 }
 
@@ -33,7 +33,7 @@ PestJSON if you're working with JSON.
 
     <?php
 
-    $pest = new Yii2Pest('http://example.com');
+    $pest = new \denisogr\yii2pest\Yii2Pest('http://example.com');
 
     $thing = $pest->get('/things');
 
@@ -83,7 +83,7 @@ try to parse the service's response into a [SimpleXML](http://php.net/manual/en/
 
 	<?php
 
-	$pest = new Yii2Pest('http://example.com');
+	$pest = new \denisogr\yii2pest\Yii2PestXML('http://example.com');
 
 	$things = $pest->get('/things.xml');
 

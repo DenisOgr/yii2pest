@@ -17,9 +17,9 @@
  * under the terms of the MIT License (see http://en.wikipedia.org/wiki/MIT_License)
  */
 
-require_once 'Yii2Pest.php';
+namespace denisogr\yii2pest;
 
-class Yii2PestXML extends Pest
+class Yii2PestXML extends Yii2Pest
 {
     /**
      * Process error

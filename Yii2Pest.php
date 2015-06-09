@@ -7,6 +7,9 @@
  * This code is licensed for use, modification, and distribution
  * under the terms of the MIT License (see http://en.wikipedia.org/wiki/MIT_License)
  */
+
+namespace denisogr\yii2pest;
+
 class Yii2Pest
 {
     /**
@@ -542,7 +545,7 @@ class Yii2Pest
     }
 }
 
-class Pest_Exception extends Exception
+class Pest_Exception extends \Exception
 {}
 class Pest_UnknownResponse extends Pest_Exception
 {}

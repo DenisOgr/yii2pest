@@ -12,17 +12,16 @@
             "name": "Donald Sipe",
             "email": "donald.sipe@gmail.com"
         },
-                {
+        {
             "name": "Denis Porplenko",
             "email": "porplenko.denis@gmail.com"
         }
-
     ],
     "require": {
         "lib-curl": "*",
         "php": ">=5.2"
     },
     "autoload": {
-        "classmap": [""]
+        "psr-4": {"denisogr\\yii2pest\\": ""}
     }
 }

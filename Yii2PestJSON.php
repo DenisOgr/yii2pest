@@ -23,9 +23,9 @@
  * under the terms of the MIT License (see http://en.wikipedia.org/wiki/MIT_License)
  */
 
-require_once 'Pest.php';
+namespace denisogr\yii2pest;
 
-class Yii2PestJSON extends Pest
+class Yii2PestJSON extends Yii2Pest
 {
     const JSON_ERROR_UNKNOWN = 1000;
 
